@@ -32,9 +32,74 @@ venv\Scripts\activate    # On Windows
 
 ### **3. Install Dependencies**
 
+# Dependencies and Technologies Used
+
+This project utilizes various libraries and technologies to enable web scraping, indexing, retrieval, and interaction via an AI-powered RAG pipeline.
+
+## **🛠️ Required Dependencies**
+
+### 1. **LangChain** 
+> Used for handling document processing, vector databases, and AI interactions.
+```sh
+pip install langchain
+```
+
+### 2. **Google Generative AI** 
+> Provides the Gemini model for text generation and embedding.
+```sh
+pip install google-generativeai langchain-google-genai
+```
+
+### 3. **BeautifulSoup4** 
+> Helps in extracting structured data from web pages.
+```sh
+pip install beautifulsoup4
+```
+
+### 4. **Requests** )
+> Enables sending HTTP requests for web scraping.
+```sh
+pip install requests
+```
+
+### 5. **FAISS (Facebook AI Similarity Search)** 
+> Used for efficient similarity search and vector storage.
+```sh
+pip install faiss-cpu
+```
+
+### 6. **Streamlit** 
+> Provides a web interface for interacting with the AI-powered research tool.
+```sh
+pip install streamlit
+```
+
+### 7. **Python-Dotenv**
+> Manages API keys and environment variables.
+```sh
+pip install python-dotenv
+```
+
+### 8. **LangChain-Community**
+> Additional utilities and plugins for LangChain.
+```sh
+pip install langchain-community
+```
+
+## 📌 **Installation**
+To install all dependencies at once, run:
 ```sh
 pip install -r requirements.txt
 ```
+
+This will install all the required packages needed for the project.
+
+### ✅ **Ensure You Have Python 3.8+ Installed**
+Check your Python version before proceeding:
+```sh
+python --version
+```
+
 
 ## Running the Pipeline
 
