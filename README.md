@@ -1,4 +1,4 @@
-# Origamis_Assigment
+# Origamis_Assignment
 
 # AI-Powered Research Tool
 
